@@ -1,6 +1,7 @@
 package com.example.cityhallapp
 
 import android.content.Intent
+import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -13,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
         setContentView(R.layout.activity_main)
-
 
         val groundFloorBtn = findViewById<ImageButton>(R.id.bt_ground)
         groundFloorBtn.setOnClickListener {
