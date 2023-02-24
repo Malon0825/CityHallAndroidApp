@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="350dp"
+        android:layout_height="580dp"
+        android:background="@drawable/office_selection_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="275dp"
+        android:layout_height="502dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CCRO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Civil Registrar's Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CENR"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="City Environment and Natural Resources"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CAO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Agriculture's Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CityArchiOff"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="City Architect's Office"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CCAO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Community Affairs Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CCO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Cooperatives Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CEO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Engineering Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CNO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Nutrition Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CSWDO"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="City Social Welfare and Development Office"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CTCA"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Tourism and Cultural Affairs" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CTCA2"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City tourism and Cultural Affairs (2)" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CVO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="City Veterinary Office" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CRL"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="COMFORT ROOM LEFT" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CRR"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="COMFORT ROOM RIGHT" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_OCSWDO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="Office of the City Social Welfare and Development Officer" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CSWDOCR"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="The City Social Welfare and Development Office Counselling Room" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_Elevator"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="ELEVATOR AREA" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

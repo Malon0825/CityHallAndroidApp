@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="350dp"
+        android:layout_height="580dp"
+        android:background="@drawable/office_selection_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="275dp"
+        android:layout_height="502dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="@+id/imageView8"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/imageView8"
+        app:layout_constraintTop_toTopOf="@+id/imageView8">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CAO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="AUDIO VISUAL ROOM" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CAuditO"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="CITY HEALTH OFFICE"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CBO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="CONFERENCE ROOM" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CityArchiOff"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="ELEVATOR AREA"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CCAO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="PRAYER ROOM" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CCO"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="SANGUNIANG PANGLUNGSOD"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CEO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="SESSION HALL" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CNO"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="SUPPLIES ROOM" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CSWDO"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/my_button_background_color"
+                android:fontFamily="@font/metropolis"
+                android:text="COMFORT ROOM LEFT"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_CTCA"
+                app:cornerRadius="30dp"
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/metropolis"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/my_button_background_color"
+                android:text="COMFORT ROOM RIGHT" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
